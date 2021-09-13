@@ -1,0 +1,24 @@
+{
+  "name": "@yoobic/playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "prettier": "@yoobic/prettier-config",
+  "scripts": {
+    "build": "build-storybook",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "start-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.5",
+    "@storybook/addon-essentials": "6.3.8",
+    "@storybook/web-components": "6.3.8",
+    "@yoobic/design-system": "1.0.0",
+    "@yoobic/eslint-config": "1.0.0",
+    "@yoobic/prettier-config": "1.0.0",
+    "babel-loader": "8.2.2",
+    "eslint": "7.32.0",
+    "prettier": "2.4.0"
+  }
+}
