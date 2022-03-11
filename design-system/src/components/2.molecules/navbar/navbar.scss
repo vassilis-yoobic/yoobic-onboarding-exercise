@@ -1,0 +1,34 @@
+@import "../../../variables.scss";
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  cu-link {
+    margin-left: 16px;
+    .link {
+      color: $tabs-color-text !important;
+      cu-text,
+      st-image {
+        margin-left: 20px;
+        position: relative;
+        &::after {
+          content: "";
+          transition: opacity 0.3s ease 0s;
+          position: absolute;
+          bottom: -4px;
+          right: 0;
+          height: 3px;
+          width: calc(100%);
+          background: #EBEBF7;
+          opacity: 0;
+        }
+        &:hover::after {
+          opacity: 1;
+          transition: opacity 0.3s ease 0s;
+        }
+      }
+    }
+  }
+}

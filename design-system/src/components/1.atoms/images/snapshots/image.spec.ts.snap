@@ -1,0 +1,11 @@
+exports[`1.atoms/images rendering props should render`] = `
+<st-image>
+  <img class="img Medium" src="img.png" alt="" />
+</st-image>
+`;
+
+exports[`1.atoms/images rendering props should render with small size`] = `
+<st-image>
+  <img class="img Small" src="img.png" alt="" />
+</st-image>
+`;

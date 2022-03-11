@@ -1,0 +1,163 @@
+my-homepage .first-section {
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+my-homepage .first-section .left {
+  max-width: 564px;
+}
+
+my-homepage .first-section .left cu-text:first-of-type .text {
+  line-height: 100%;
+  margin-bottom: 32px;
+  margin-top: 64px;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+}
+
+my-homepage .first-section .left cu-text:nth-of-type(2) .text {
+  line-height: 1.6;
+}
+
+my-homepage .first-section .left .btns-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 220px;
+}
+
+my-homepage .first-section .left .btns-wrapper my-btn:last-of-type {
+  margin-left: 10px;
+}
+
+my-homepage .first-section .right {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-64px, -50%);
+          transform: translate(-64px, -50%);
+  margin-top: 20px;
+}
+
+my-homepage .first-section cu-text.bottom-heading .text {
+  font-weight: 600;
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+
+my-homepage .first-section .img-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+my-homepage hr {
+  border-top-width: 1px;
+}
+
+my-homepage .second-section {
+  margin: 160px auto 36px auto;
+  width: 1152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+my-homepage .second-section f-heading {
+  width: 40%;
+  padding-right: 50px;
+}
+
+my-homepage .second-section ul {
+  width: 60%;
+  -webkit-columns: 2;
+          columns: 2;
+}
+
+my-homepage .second-section ul .li {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+my-homepage .grey-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0 18px 0;
+  background-color: #f4f7fa;
+}
+
+my-homepage .grey-section cu-text:nth-of-type(1) {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+my-homepage .grey-section cu-text:nth-of-type(2) {
+  margin-bottom: 80px;
+}
+
+my-homepage .third-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f9fafb));
+  background: linear-gradient(white 0%, #f9fafb 100%);
+  padding: 160px 0;
+}
+
+my-homepage .third-section .container {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+my-homepage .third-section .container f-heading .heading {
+  width: 420px;
+}
+
+my-homepage .third-section .container .grid-advantage {
+  margin-top: 120px;
+}
+
+my-homepage .fourth-section .row {
+  margin: 160px auto 36px auto;
+  width: 1152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+my-homepage .fourth-section .row .right {
+  width: 60%;
+}
+
+my-homepage .fourth-section .row .right f-heading {
+  width: 40%;
+  padding-right: 50px;
+}
+
+my-homepage .fourth-section .row .right ul .li {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+my-homepage .fourth-section .row .right .text {
+  margin: 20px 0;
+  padding-left: 40px;
+  line-height: 1.7;
+}
+
+my-homepage .fourth-section .row .right .button {
+  margin-left: 40px;
+}
+/*# sourceMappingURL=homepage.css.map */

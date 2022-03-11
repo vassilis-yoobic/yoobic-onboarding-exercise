@@ -1,0 +1,18 @@
+exports[`1.atoms/link rendering props should render`] = `
+<cu-link>
+  <a class="link" href="#">
+    Test
+    <slot />
+  </a>
+</cu-link>
+`;
+
+exports[`1.atoms/link rendering props should render image only`] = `
+<cu-link>
+  <a class="link" href="#">
+    <st-image>
+      <img class="img Small" src="img.png" alt="" />
+    </st-image>
+  </a>
+</cu-link>
+`;

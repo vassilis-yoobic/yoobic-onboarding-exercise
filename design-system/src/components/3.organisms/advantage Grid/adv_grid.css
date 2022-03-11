@@ -1,0 +1,10 @@
+.grid-advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-advantage .adv-wrapper {
+  margin-right: 100px;
+}
+/*# sourceMappingURL=adv_grid.css.map */

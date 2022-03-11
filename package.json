@@ -10,5 +10,10 @@
   },
   "devDependencies": {
     "husky": "7.0.4"
+  },
+  "dependencies": {
+    "@stencil/helmet": "^0.3.2",
+    "helmet": "^5.0.2",
+    "stencil": "^0.0.5"
   }
 }

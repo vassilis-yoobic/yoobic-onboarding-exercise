@@ -5,37 +5,313 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { Identifier } from "./components/shared/identifier";
+import { Tab } from "./components/shared/tab";
+import { Advantage } from "./components/shared/advantage";
 export namespace Components {
-    interface MyComponent {
-        "first"?: string;
-        "last"?: string;
+    interface CuCard {
+    }
+    interface CuFooter {
+        "identifier"?: Identifier;
+    }
+    interface CuHeader {
+        "identifier"?: Identifier;
+        "tabs": Tab[];
+    }
+    interface CuLink {
+        "href": string;
+        "icon"?: string;
+    }
+    interface CuText {
+        "color"?: string;
+        "content": string;
+        "size"?: number;
+    }
+    interface FHeading {
+        "color"?: string;
+        "color2"?: string;
+        "content": string;
+        "following_text": string;
+        "size"?: number;
+    }
+    interface GridAdvantage {
+        "advantages"?: Advantage[];
+        "identifier"?: Identifier;
+    }
+    interface LiChecked {
+        "identifier"?: Identifier;
+        "label"?: string;
+        "size": "Small" | "Medium";
+    }
+    interface MyBtn {
+        "identifier"?: Identifier;
+        "label"?: string;
+        "size": "Small" | "Medium";
+        "type": 'Primary-Rounded' | 'Secondary-Rounded' | 'Primary-Square' | 'Secondary-Square' | 'Third-Square' | 'With-Gradient';
+    }
+    interface MyHomepage {
+        "advantages": Advantage[];
+        "identifier"?: Identifier;
+        "tabs": Tab[];
+    }
+    interface NavTabs {
+        "identifier"?: Identifier;
+        "tabs": Tab[];
+    }
+    interface SingleAdvantage {
+        "adv_title"?: string;
+        "icon"?: string;
+        "identifier"?: Identifier;
+        "text"?: string;
+    }
+    interface StImage {
+        "alt"?: string;
+        "identifier"?: Identifier;
+        "size": "Small" | "Medium" | "Large";
+        "src"?: string;
+    }
+    interface StInput {
+        "identifier"?: Identifier;
+        "name"?: string;
+        "placeholder"?: string;
+        "type"?: string;
+    }
+    interface SubForm {
+        "identifier"?: Identifier;
+    }
+    interface SubSection {
+        "identifier"?: Identifier;
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLCuCardElement extends Components.CuCard, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLCuCardElement: {
+        prototype: HTMLCuCardElement;
+        new (): HTMLCuCardElement;
+    };
+    interface HTMLCuFooterElement extends Components.CuFooter, HTMLStencilElement {
+    }
+    var HTMLCuFooterElement: {
+        prototype: HTMLCuFooterElement;
+        new (): HTMLCuFooterElement;
+    };
+    interface HTMLCuHeaderElement extends Components.CuHeader, HTMLStencilElement {
+    }
+    var HTMLCuHeaderElement: {
+        prototype: HTMLCuHeaderElement;
+        new (): HTMLCuHeaderElement;
+    };
+    interface HTMLCuLinkElement extends Components.CuLink, HTMLStencilElement {
+    }
+    var HTMLCuLinkElement: {
+        prototype: HTMLCuLinkElement;
+        new (): HTMLCuLinkElement;
+    };
+    interface HTMLCuTextElement extends Components.CuText, HTMLStencilElement {
+    }
+    var HTMLCuTextElement: {
+        prototype: HTMLCuTextElement;
+        new (): HTMLCuTextElement;
+    };
+    interface HTMLFHeadingElement extends Components.FHeading, HTMLStencilElement {
+    }
+    var HTMLFHeadingElement: {
+        prototype: HTMLFHeadingElement;
+        new (): HTMLFHeadingElement;
+    };
+    interface HTMLGridAdvantageElement extends Components.GridAdvantage, HTMLStencilElement {
+    }
+    var HTMLGridAdvantageElement: {
+        prototype: HTMLGridAdvantageElement;
+        new (): HTMLGridAdvantageElement;
+    };
+    interface HTMLLiCheckedElement extends Components.LiChecked, HTMLStencilElement {
+    }
+    var HTMLLiCheckedElement: {
+        prototype: HTMLLiCheckedElement;
+        new (): HTMLLiCheckedElement;
+    };
+    interface HTMLMyBtnElement extends Components.MyBtn, HTMLStencilElement {
+    }
+    var HTMLMyBtnElement: {
+        prototype: HTMLMyBtnElement;
+        new (): HTMLMyBtnElement;
+    };
+    interface HTMLMyHomepageElement extends Components.MyHomepage, HTMLStencilElement {
+    }
+    var HTMLMyHomepageElement: {
+        prototype: HTMLMyHomepageElement;
+        new (): HTMLMyHomepageElement;
+    };
+    interface HTMLNavTabsElement extends Components.NavTabs, HTMLStencilElement {
+    }
+    var HTMLNavTabsElement: {
+        prototype: HTMLNavTabsElement;
+        new (): HTMLNavTabsElement;
+    };
+    interface HTMLSingleAdvantageElement extends Components.SingleAdvantage, HTMLStencilElement {
+    }
+    var HTMLSingleAdvantageElement: {
+        prototype: HTMLSingleAdvantageElement;
+        new (): HTMLSingleAdvantageElement;
+    };
+    interface HTMLStImageElement extends Components.StImage, HTMLStencilElement {
+    }
+    var HTMLStImageElement: {
+        prototype: HTMLStImageElement;
+        new (): HTMLStImageElement;
+    };
+    interface HTMLStInputElement extends Components.StInput, HTMLStencilElement {
+    }
+    var HTMLStInputElement: {
+        prototype: HTMLStInputElement;
+        new (): HTMLStInputElement;
+    };
+    interface HTMLSubFormElement extends Components.SubForm, HTMLStencilElement {
+    }
+    var HTMLSubFormElement: {
+        prototype: HTMLSubFormElement;
+        new (): HTMLSubFormElement;
+    };
+    interface HTMLSubSectionElement extends Components.SubSection, HTMLStencilElement {
+    }
+    var HTMLSubSectionElement: {
+        prototype: HTMLSubSectionElement;
+        new (): HTMLSubSectionElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "cu-card": HTMLCuCardElement;
+        "cu-footer": HTMLCuFooterElement;
+        "cu-header": HTMLCuHeaderElement;
+        "cu-link": HTMLCuLinkElement;
+        "cu-text": HTMLCuTextElement;
+        "f-heading": HTMLFHeadingElement;
+        "grid-advantage": HTMLGridAdvantageElement;
+        "li-checked": HTMLLiCheckedElement;
+        "my-btn": HTMLMyBtnElement;
+        "my-homepage": HTMLMyHomepageElement;
+        "nav-tabs": HTMLNavTabsElement;
+        "single-advantage": HTMLSingleAdvantageElement;
+        "st-image": HTMLStImageElement;
+        "st-input": HTMLStInputElement;
+        "sub-form": HTMLSubFormElement;
+        "sub-section": HTMLSubSectionElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        "first"?: string;
-        "last"?: string;
+    interface CuCard {
+    }
+    interface CuFooter {
+        "identifier"?: Identifier;
+    }
+    interface CuHeader {
+        "identifier"?: Identifier;
+        "tabs"?: Tab[];
+    }
+    interface CuLink {
+        "href": string;
+        "icon"?: string;
+    }
+    interface CuText {
+        "color"?: string;
+        "content": string;
+        "size"?: number;
+    }
+    interface FHeading {
+        "color"?: string;
+        "color2"?: string;
+        "content": string;
+        "following_text": string;
+        "size"?: number;
+    }
+    interface GridAdvantage {
+        "advantages"?: Advantage[];
+        "identifier"?: Identifier;
+    }
+    interface LiChecked {
+        "identifier"?: Identifier;
+        "label"?: string;
+        "size"?: "Small" | "Medium";
+    }
+    interface MyBtn {
+        "identifier"?: Identifier;
+        "label"?: string;
+        "size"?: "Small" | "Medium";
+        "type"?: 'Primary-Rounded' | 'Secondary-Rounded' | 'Primary-Square' | 'Secondary-Square' | 'Third-Square' | 'With-Gradient';
+    }
+    interface MyHomepage {
+        "advantages"?: Advantage[];
+        "identifier"?: Identifier;
+        "tabs"?: Tab[];
+    }
+    interface NavTabs {
+        "identifier"?: Identifier;
+        "tabs"?: Tab[];
+    }
+    interface SingleAdvantage {
+        "adv_title"?: string;
+        "icon"?: string;
+        "identifier"?: Identifier;
+        "text"?: string;
+    }
+    interface StImage {
+        "alt"?: string;
+        "identifier"?: Identifier;
+        "size"?: "Small" | "Medium" | "Large";
+        "src"?: string;
+    }
+    interface StInput {
+        "identifier"?: Identifier;
+        "name"?: string;
+        "placeholder"?: string;
+        "type"?: string;
+    }
+    interface SubForm {
+        "identifier"?: Identifier;
+    }
+    interface SubSection {
+        "identifier"?: Identifier;
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "cu-card": CuCard;
+        "cu-footer": CuFooter;
+        "cu-header": CuHeader;
+        "cu-link": CuLink;
+        "cu-text": CuText;
+        "f-heading": FHeading;
+        "grid-advantage": GridAdvantage;
+        "li-checked": LiChecked;
+        "my-btn": MyBtn;
+        "my-homepage": MyHomepage;
+        "nav-tabs": NavTabs;
+        "single-advantage": SingleAdvantage;
+        "st-image": StImage;
+        "st-input": StInput;
+        "sub-form": SubForm;
+        "sub-section": SubSection;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "cu-card": LocalJSX.CuCard & JSXBase.HTMLAttributes<HTMLCuCardElement>;
+            "cu-footer": LocalJSX.CuFooter & JSXBase.HTMLAttributes<HTMLCuFooterElement>;
+            "cu-header": LocalJSX.CuHeader & JSXBase.HTMLAttributes<HTMLCuHeaderElement>;
+            "cu-link": LocalJSX.CuLink & JSXBase.HTMLAttributes<HTMLCuLinkElement>;
+            "cu-text": LocalJSX.CuText & JSXBase.HTMLAttributes<HTMLCuTextElement>;
+            "f-heading": LocalJSX.FHeading & JSXBase.HTMLAttributes<HTMLFHeadingElement>;
+            "grid-advantage": LocalJSX.GridAdvantage & JSXBase.HTMLAttributes<HTMLGridAdvantageElement>;
+            "li-checked": LocalJSX.LiChecked & JSXBase.HTMLAttributes<HTMLLiCheckedElement>;
+            "my-btn": LocalJSX.MyBtn & JSXBase.HTMLAttributes<HTMLMyBtnElement>;
+            "my-homepage": LocalJSX.MyHomepage & JSXBase.HTMLAttributes<HTMLMyHomepageElement>;
+            "nav-tabs": LocalJSX.NavTabs & JSXBase.HTMLAttributes<HTMLNavTabsElement>;
+            "single-advantage": LocalJSX.SingleAdvantage & JSXBase.HTMLAttributes<HTMLSingleAdvantageElement>;
+            "st-image": LocalJSX.StImage & JSXBase.HTMLAttributes<HTMLStImageElement>;
+            "st-input": LocalJSX.StInput & JSXBase.HTMLAttributes<HTMLStInputElement>;
+            "sub-form": LocalJSX.SubForm & JSXBase.HTMLAttributes<HTMLSubFormElement>;
+            "sub-section": LocalJSX.SubSection & JSXBase.HTMLAttributes<HTMLSubSectionElement>;
         }
     }
 }

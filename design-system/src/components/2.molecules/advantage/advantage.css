@@ -1,0 +1,20 @@
+.advantage .adv-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 270px;
+}
+
+.advantage .adv-wrapper .title {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.advantage .adv-wrapper .text {
+  line-height: 1.7;
+}
+/*# sourceMappingURL=advantage.css.map */

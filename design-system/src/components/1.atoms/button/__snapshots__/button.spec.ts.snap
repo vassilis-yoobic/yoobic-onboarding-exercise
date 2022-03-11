@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1.atoms/button rendering props should render a button with default attributes 1`] = `
+<my-btn>
+  <!---->
+  <button class="button undefined">
+    Test
+  </button>
+</my-btn>
+`;
+
+exports[`1.atoms/button rendering props should render a small button 1`] = `
+<my-btn>
+  <!---->
+  <button class="button small undefined">
+    Test
+  </button>
+</my-btn>
+`;
+
+exports[`1.atoms/button rendering props should render a square button 1`] = `
+<my-btn>
+  <!---->
+  <button class="Primary-Square button undefined">
+    Test
+  </button>
+</my-btn>
+`;

@@ -1,0 +1,64 @@
+@import "../../../variables.scss";
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-weight: 700;
+  transition: all 0.15s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &.Primary-Rounded,
+  &.Primary-Square {
+      color: $color-white;
+      background-color: $primary-color-btn;
+      &:hover {
+        background-color: $primary-darker-btn;
+      }
+  }
+  &.Secondary-Rounded,
+  &.Secondary-Square {
+      color: $primary-color-btn;
+      background-color: $secondary-color-btn;
+      &:hover {
+        background-color: $color-white;
+      }
+  }
+  &.Primary,
+  &.Secondary {
+      &-Rounded {
+        border-radius: 100px;
+      }
+      &-Square {
+        border-radius: 8px;
+      }
+  }
+
+  &.Third-Square {
+    background-color: $third-color-btn;
+    color: #e0e0f1;
+    border-radius: 8px;
+  }
+
+  &.With-Gradient {
+    border-radius: 200px;
+    text-transform: lowercase;
+    color: $color-white;
+    background: linear-gradient(89.97deg, rgb(83, 83, 255) 0.03%, rgb(255, 74, 85) 99.14%);
+  }
+
+  &.Small {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  &.Medium {
+    font-size: 14px;
+  }
+}
+

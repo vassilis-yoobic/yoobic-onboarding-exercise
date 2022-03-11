@@ -1,0 +1,22 @@
+.card {
+  background: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 4px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 4px 0px;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 4px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: none;
+  width: 96px;
+}
+/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,14 @@
+.advantage {
+  .adv-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    .title {
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .text {
+      line-height: 1.7;
+    }
+  }
+}

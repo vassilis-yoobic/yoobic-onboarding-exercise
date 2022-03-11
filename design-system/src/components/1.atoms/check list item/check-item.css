@@ -1,0 +1,12 @@
+li {
+  list-style: none;
+}
+
+li.Small {
+  font-size: 14px;
+}
+
+li.Medium {
+  font-size: 17px;
+}
+/*# sourceMappingURL=check-item.css.map */

@@ -1,0 +1,23 @@
+exports[`1.atoms/text rendering props should render`] = `
+<cu-text>
+  <div class="text" style="color:#000; font-size:14px;">
+    Some Text
+  </div>
+</cu-text>
+`;
+
+exports[`1.atoms/text rendering props should render with different color`] = `
+<cu-text>
+  <div class="text" style="color:#123456;">
+    Some Text
+  </div>
+</cu-text>
+`;
+
+exports[`1.atoms/text rendering props should render with different font size`] = `
+<cu-text>
+  <div class="text" style="font-size:18px;">
+    Some Text
+  </div>
+</cu-text>
+`;

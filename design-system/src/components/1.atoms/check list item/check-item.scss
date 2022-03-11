@@ -1,0 +1,12 @@
+li {
+  list-style: none;
+
+  &.Small {
+    font-size: 14px;
+  }
+
+  &.Medium {
+    font-size: 17px;
+  }
+}
+

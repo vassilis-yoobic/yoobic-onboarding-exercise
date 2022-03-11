@@ -1,0 +1,26 @@
+exports[`1.atoms/button rendering props should render a button with default attributes`] = `
+<my-btn>
+  <button class="Medium Primary-Rounded button">
+    Test
+    <slot />
+  </button>
+</my-btn>
+`;
+
+exports[`1.atoms/button rendering props should render a small button`] = `
+<my-btn>
+  <button class="Small Primary-Rounded button">
+    Test
+    <slot />
+  </button>
+</my-btn>
+`;
+
+exports[`1.atoms/button rendering props should render a square button`] = `
+<my-btn>
+  <button class="Medium Primary-Square button">
+    Test
+    <slot />
+  </button>
+</my-btn>
+`;

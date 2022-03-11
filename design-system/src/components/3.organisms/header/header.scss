@@ -1,0 +1,19 @@
+@import "../../../variables.scss";
+
+.top-header {
+  background-color: $color-black;
+}
+.bottom-header {
+  background-color: transparent;
+}
+.header-container {
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1.atoms/images rendering props should render 1`] = `
+<st-image>
+  <img alt="undefined" class="img undefined" src="undefined">
+</st-image>
+`;
+
+exports[`1.atoms/images rendering props should render with small size 1`] = `
+<st-image>
+  <img alt="undefined" class="img small" src="undefined">
+</st-image>
+`;

@@ -1,0 +1,16 @@
+input {
+  transition: border 0.3s ease 0s;
+  margin-right: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 1px solid rgb(222, 227, 234);
+  box-sizing: border-box;
+  border-radius: 6px;
+  flex: 1 1 0%;
+  appearance: none;
+  &:focus {
+    outline: none;
+    border: 1px solid rgb(120, 109, 249);
+  }
+}
+

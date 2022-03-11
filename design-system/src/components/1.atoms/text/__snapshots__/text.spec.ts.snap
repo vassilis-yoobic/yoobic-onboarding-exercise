@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1.atoms/text rendering props should render 1`] = `
+<cu-text>
+  Test
+  <div class="text" style="color: #03060b; font-size: 14px;"></div>
+</cu-text>
+`;
+
+exports[`1.atoms/text rendering props should render with different color 1`] = `
+<cu-text>
+  Test
+  <div class="text" style="color: #123456; font-size: 14px;"></div>
+</cu-text>
+`;
+
+exports[`1.atoms/text rendering props should render with different font size 1`] = `
+<cu-text>
+  Test
+  <div class="text" style="color: #03060b; font-size: 18px;"></div>
+</cu-text>
+`;

@@ -1,0 +1,26 @@
+.top-header {
+  background-color: #03060b;
+}
+
+.bottom-header {
+  background-color: transparent;
+}
+
+.header-container {
+  max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,UADQ,CACR,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,KAAK;CAQjB;;AAZH,AAKI,UALM,CACR,YAAY,CAIV,MAAM,CAAC;EACL,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;CACjB;;AARL,AASI,UATM,CACR,YAAY,CAQV,KAAK,CAAC;EACJ,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "advantage.scss"
+    ],
+    "names": [],
+    "file": "advantage.css"
+}

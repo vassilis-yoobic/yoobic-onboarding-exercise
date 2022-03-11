@@ -1,0 +1,67 @@
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-weight: 700;
+  -webkit-transition: all 0.15s ease 0s;
+  transition: all 0.15s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button.Primary-Rounded, button.Primary-Square {
+  color: #fff;
+  background-color: #4c48ff;
+}
+
+button.Primary-Rounded:hover, button.Primary-Square:hover {
+  background-color: #3d3aff;
+}
+
+button.Secondary-Rounded, button.Secondary-Square {
+  color: #4c48ff;
+  background-color: #f4f4ff;
+}
+
+button.Secondary-Rounded:hover, button.Secondary-Square:hover {
+  background-color: #fff;
+}
+
+button.Primary-Rounded, button.Secondary-Rounded {
+  border-radius: 100px;
+}
+
+button.Primary-Square, button.Secondary-Square {
+  border-radius: 8px;
+}
+
+button.Third-Square {
+  background-color: #161525;
+  color: #e0e0f1;
+  border-radius: 8px;
+}
+
+button.With-Gradient {
+  border-radius: 200px;
+  text-transform: lowercase;
+  color: #fff;
+  background: linear-gradient(89.97deg, #5353ff 0.03%, #ff4a55 99.14%);
+}
+
+button.Small {
+  font-size: 12px;
+  padding: 6px 12px;
+}
+
+button.Medium {
+  font-size: 14px;
+}
+/*# sourceMappingURL=button.css.map */
