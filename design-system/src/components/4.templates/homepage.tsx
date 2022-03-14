@@ -100,6 +100,9 @@ export class Homepage implements ComponentInterface {
           </div>
           <sub-section identifier="sub-form"></sub-section>
           <cu-footer identifier="footer"></cu-footer>
+          <div class="cards-wrapper">
+            <cu-card></cu-card>
+          </div>
       </Host>
     );
   }

@@ -1,4 +1,19 @@
 .sub-form {
   display: flex;
   align-items: center;
+  .left {
+    display: flex;
+    align-items: center;
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+sub-section {
+  width: 1152px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 64px 0;
 }

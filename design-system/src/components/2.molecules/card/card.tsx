@@ -5,7 +5,7 @@ import { Component, ComponentInterface, h, Host } from '@stencil/core';
   styleUrl: 'card.css',
 })
 
-export class CustomLink implements ComponentInterface {
+export class CustomCard implements ComponentInterface {
   render() {
     return (
       <Host>
